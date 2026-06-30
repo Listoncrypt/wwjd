@@ -3,6 +3,7 @@
   "outputDirectory": "dist",
   "installCommand": "bun install",
   "rewrites": [
+    { "source": "/api/:match*", "destination": "https://wwjd-125s.onrender.com/api/:match*" },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }
